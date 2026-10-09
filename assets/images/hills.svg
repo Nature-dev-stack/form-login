@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ab7bc"/>
+      <stop offset=".48" stop-color="#e7c995"/>
+      <stop offset="1" stop-color="#d4a45b"/>
+    </linearGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#536d64"/>
+      <stop offset="1" stop-color="#203c3d"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#688f3e"/>
+      <stop offset="1" stop-color="#203d22"/>
+    </linearGradient>
+    <linearGradient id="hill3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#91b848"/>
+      <stop offset="1" stop-color="#314d20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+
+  <path d="M0 420 C180 360 320 440 500 405 C700 365 820 470 1020 420 C1240 365 1390 390 1600 330 L1600 1000 L0 1000Z" fill="url(#hill1)"/>
+  <path d="M0 560 C180 480 360 560 530 510 C730 450 880 550 1080 480 C1280 410 1430 460 1600 410 L1600 1000 L0 1000Z" fill="url(#hill2)"/>
+  <path d="M0 660 C180 580 330 620 520 570 C750 510 920 650 1110 560 C1300 470 1450 520 1600 480 L1600 1000 L0 1000Z" fill="url(#hill3)"/>
+
+  <path d="M720 1000 C790 860 820 750 760 650 C720 590 700 560 670 530 C790 570 900 680 950 790 C1010 920 1040 960 1070 1000Z" fill="#d4c17c" opacity=".72"/>
+  <path d="M0 840 C170 790 310 810 450 760 C590 710 680 735 790 700 C660 820 600 910 570 1000 L0 1000Z" fill="#223b21" opacity=".75"/>
+  <circle cx="150" cy="850" r="80" fill="#1d3320" opacity=".8"/>
+  <circle cx="300" cy="870" r="110" fill="#1c3520" opacity=".78"/>
+  <circle cx="1370" cy="780" r="100" fill="#263e20" opacity=".55"/>
+</svg>
